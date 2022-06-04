@@ -51,7 +51,7 @@ sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/ms-teams
 sudo apt update
 sudo apt install teams
 
-echo -e "\e[1;32m Congratulations You have sucessfully installed Teams  \e[0m"
+echo -e "\e[1;32m Congratulations You have successfully installed Teams  \e[0m"
 
 #Developer things start from here
 # Installing Git 
@@ -59,21 +59,21 @@ echo -e "\e[1;32m Congratulations You have sucessfully installed Teams  \e[0m"
 sudo apt update
 sudo apt install git
 
-echo -e "\e[1;32m Congratulations You have sucessfully installed Git  \e[0m"
+echo -e "\e[1;32m Congratulations You have successfully installed Git  \e[0m"
 git --version
 
 # Installing Nodejs
 
 sudo apt update
 sudo apt install nodejs
-echo -e "\e[1;32m Sucessfully installed Nodejs  \e[0m"
+echo -e "\e[1;32m Successfully installed Nodejs  \e[0m"
 node -v
 
 #Installing npm
 
 sudo apt install npm
 
-echo -e "\e[1;32m Sucessfully installed NPM  \e[0m"
+echo -e "\e[1;32m Successfully installed NPM  \e[0m"
 
 npm -version
 
@@ -83,12 +83,12 @@ sudo apt-get install python-software-properties
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash –
 
 sudo apt-get install nodejs
-echo -e "\e[1;32m Sucessfully installed NPM and node with Python Library  \e[0m"
+echo -e "\e[1;32m Successfully installed NPM and node with Python Library  \e[0m"
 node -v
 npm -version
 
 #Installing Python 
 
 sudo apt-get install python
-echo -e "\e[1;32m Sucessfully installed Python  \e[0m"
+echo -e "\e[1;32m Successfully installed Python  \e[0m"
 python --version
