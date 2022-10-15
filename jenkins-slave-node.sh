@@ -18,10 +18,10 @@ echo -e "\e[1;32m YOur machineis updated successfully  \e[0m"
 sudo apt install openjdk-11-jre-headless -y
 
 # Installing JQ
-sudo apt install jq
+sudo apt install jq -y
 
 # Instaling Docker
-sudo apt install docker.io
+sudo apt install docker.io -y
 
 # Installing AWS CLI
 
@@ -29,7 +29,7 @@ sudo apt install awscli
 
 # Installing Python
 
-sudo apt-get install python3-pip
+sudo apt-get install python3-pip -y
 
 # Upgrading aws cli with pip 3
 sudo pip3 install --upgrade awscli  
